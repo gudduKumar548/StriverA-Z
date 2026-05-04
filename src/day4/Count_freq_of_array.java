@@ -12,18 +12,11 @@ public class Count_freq_of_array {
 
         int[] arr = new int[num];
         System.out.println("Enter elements");
-        for(int i=0;i<arr.length;i++){
+        for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
-        Map<Integer,Integer> ans= freq_count(arr);
+        Map<Integer, Integer> ans = freq_count(arr);
         System.out.println(ans);
-    }
-    public static int[] count_freq(int[] arr){
-        int[] arr1 = new int[arr.length];
-        for(int i=0;i<arr1.length;i++) {
-            arr1[arr[i]] += 1;
-        }
-
     }
     public static Map<Integer,Integer> freq_count(int[] arr){
         HashMap<Integer,Integer> map = new HashMap<>();
