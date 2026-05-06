@@ -2,7 +2,7 @@ package day5;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
+// take every highest element from the array and place at the very end
 public class Bubble_sort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
