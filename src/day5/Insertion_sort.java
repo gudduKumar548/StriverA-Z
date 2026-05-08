@@ -22,15 +22,15 @@ public class Insertion_sort {
     private static int[] insertion_sort(int[] arr, int n) {
 
         for(int i=1;i<n;i++){
-           int key = arr[i]; //current element as key
+           int key = arr[i]; //Pick current element.
            int j=i-1; // previous element
 
-            //Shift the elements that are greater than key by one position
+            //Move bigger elements one position right.
             while(j>=0 && arr[j]>key){
                arr[j+1] = arr[j];
                j--;
            }
-           arr[j+1] = key; //Insert key at correct positon
+           arr[j+1] = key; //Insert current element in the empty position.
         }
         return arr;
     }
