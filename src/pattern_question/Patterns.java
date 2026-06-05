@@ -213,7 +213,4 @@ class Pattern_problems{
 
         }
     }
-    public static void pattern17(int n){
-
-    }
 }
